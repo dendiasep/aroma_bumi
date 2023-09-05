@@ -121,6 +121,17 @@ header {
     
 }
 
+.menu-image a {
+    display: flex;
+    height: 220px;
+    flex-direction: column;
+}
+
+.menu-image a:hover {
+    flex-direction: column-reverse;
+    transition: 5s;
+}
+
 .menu-image h3 {
     color: #F9FBFE;
     text-align: center;
@@ -145,7 +156,6 @@ header {
 .menu-image img {
     width: 186px;
     height: 139.632px;
-    position: absolute;
     padding-left: 10px;
 }
 
