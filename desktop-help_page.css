@@ -1,0 +1,295 @@
+* {
+    text-decoration: none;
+}
+
+
+
+html, body {
+    max-width:100%;
+    overflow-x: hidden;
+font-family: "Lato",Arial, Helvetica, sans-serif; 
+   
+    
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Regular.ttf);
+}    
+
+.paragraph {
+    width: 150%;
+}
+
+a {
+    color: #F9FBFE
+}
+
+a:hover {
+    color: #888383;
+}
+
+a:active {
+    color: #F9FBFE;
+    transition: 0.5s;
+}
+
+li {
+    list-style: none;
+}
+
+.container-header {
+    width: 100%;
+}
+
+header {
+    color: white;
+    background-color: #0F8B8D;
+    border-radius: 30px 30px 0 0;
+    height: 145px;
+    width: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header-left {
+    float: left;
+    width: 335px;
+    height: 67px;
+    padding-top: 25px;
+    padding-left: 138px;
+
+}
+
+.header-right {
+    margin-right: 110px;
+    
+}
+
+.header-right li{
+    float: right;
+    margin-right: 50px;
+    font-size: 30px;
+    margin-top: 54px;
+    
+    text-align: center;
+    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title h2 {
+    color: #0F8B8D;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 100px;
+    margin-left: 257px;
+
+}
+
+.form-container {
+    width: 926px;
+    height: 784px;
+    margin: 50px 257px;
+    padding: 50px 98px;
+    border-radius: 20px;
+    border: 2px solid #D2D2D2;
+    background: #FFF;
+    padding-right: 0;
+}
+
+.form {
+    display: flex;
+    color: #143642;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 157px;
+    width: 748px;
+}
+
+.form p {
+    width: 203px;
+    height: 36px;
+    margin-right: 34px;
+    margin-bottom: 55px;
+    margin-top: 20px;
+}
+
+.form input {
+    width: 491px;
+    height: 71px;
+    border-radius: 20px;
+    border: 2px solid #D2D2D2;
+    background: #FFF;
+}
+
+.subject textarea {
+    width: 491px;
+    height: 71px;
+    border-radius: 20px;
+    border: 2px solid #D2D2D2;
+    background: #FFF;
+}
+
+.message textarea {
+    width: 491px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid #D2D2D2;
+    background: #FFF;
+}
+
+.contact-submit {
+    text-align: center;
+    width: 216px;
+    height: 70px;
+    border-radius: 55px;
+    background: #A8201A;
+    color: #F9FBFE;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 50px 355px;
+    box-shadow: 0 5px #888383;
+}
+
+.contact-submit:hover {
+    background-color: #f03a30;
+    color:rgb(194, 180, 180);
+    cursor: pointer;
+}
+
+.contact-submit:active {
+    background-color: #A8201A;
+    color:rgb(194, 180, 180);
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+.container-footer {
+    width: 100%;
+    height: 460px;
+    display: flex;
+    border-radius: 30px;
+    background: #143642;
+}
+
+.footer-logo { 
+    padding-top: 80px;
+    padding-left: 138px;
+}
+
+.footer-logo img {
+    padding-bottom: 31px;
+}
+
+.logo-contact {
+    display: flex;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.logo-mail img{
+    width: 40px;
+    height: 32px;
+    padding-right: 27px;
+}
+
+.logo-phone img{
+    width: 32px;
+    height: 32px;
+    padding-right: 27px;
+}
+.footer-product {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 139px;
+    padding-top: 80px;
+}
+
+.footer-product a {
+    color: #EC9A29;
+}
+
+.footer-product a:hover {
+    color: #e68805;
+}
+
+
+.footer-product p {
+    color: #F9FBFE;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 140px;
+    height: 29px;
+    padding-left: 0;
+}
+
+.footer-store {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+.footer-store a {
+    color: #EC9A29;
+}
+
+.footer-store a:hover {
+    color: #e68805;
+}
+
+.footer-store p {
+    color: #F9FBFE;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-contact {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 100px;
+    padding-top: 80px;
+    
+}
+
+.footer-contact a {
+    color: #EC9A29;
+}
+
+.footer-contact a:hover {
+    color: #e68805;
+}
+
+.footer-contact p {
+    color: #F9FBFE;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 187px;
+    height: 29px;
+}
