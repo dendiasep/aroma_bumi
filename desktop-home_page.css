@@ -69,7 +69,8 @@ header {
     overflow-x: hidden;
     float: right;
     margin-right: 50px;
-    font-size: 30px;    
+    font-size: 30px;
+    
 }
 
 .top-wrapper {
@@ -167,6 +168,7 @@ header {
     font-weight: 400;
     line-height: normal;
     margin-top: 20px;
+    width: 452px;
 }
 
 .product {
@@ -449,13 +451,16 @@ header {
     width: 40px;
     height: 32px;
     padding-right: 27px;
+    box-sizing: unset;
 }
 
 .logo-phone img{
     width: 32px;
     height: 32px;
     padding-right: 27px;
+    box-sizing: unset;
 }
+
 .footer-product {
     padding-bottom: 20px;
     font-size: 24px;
