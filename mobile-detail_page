@@ -1,0 +1,239 @@
+@media (max-width: 670px) {
+    header {
+        height: 125px;
+    }
+
+    .header-left {
+        padding-left: 40px;
+    }
+
+    .logo-white {
+        height: 50%;
+    }
+
+    .header-right {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-right ul {
+        margin-top: 0;
+    }
+
+    .header-right li {
+        margin-top:20px;
+        font-size: 14px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .container-product {
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        align-content: flex-start;
+        height: 380px;
+        margin-bottom: 30px;
+    }
+
+    .product-image img {
+        margin: 0;
+        height: 285px;
+    }
+
+    .product-name {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 359px;
+        margin-left: 41px;
+        
+    }
+
+    .product-name h3 {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .product-name p {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .product-name h2 {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .container-description {
+        width: 100%;
+        height: 120px;
+        margin-left: 41px;
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+    .container-description h2 {
+        margin: 0;
+        font-size: 20px;
+        border-bottom: 1px solid #EC9A29;
+        width: 280px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .container-description p{
+        margin: 0;
+        font-size: 12px;
+        width: 267px;
+    }
+    
+    .btn-back {
+        width: 135px;
+        height: 28px;
+        padding: 8px 15px 8px 15px;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+        border-radius: 55px;
+        margin-top: 38px;
+    }
+    
+    a.btn-back:hover {
+        background-color: #e72e25;
+        color: rgb(139, 136, 136);
+        border: 2px solid #A8201A;
+        transition: 0.5s;
+    } 
+    
+    a.btn-back:active {
+        background-color: #A8201A;
+        color: #F9FBFE;
+        transition: 0.5s;
+    }
+
+    a.btn-back {
+        margin-left: 0;
+    }
+    
+    a.btn-back img {
+        padding-right: 5px;
+        height: 50%;
+    }
+    
+
+    .container-footer {
+        flex-direction: column;
+    }
+    
+    .footer-logo {
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 50px;
+        padding-bottom: 0;
+    }
+
+    .logo.white.\31 {
+        height: 50%;
+
+    }
+
+    .logo-contact {
+        margin: 0 0 0 73px
+    }
+
+    .footer-product {
+        padding: 0;
+        padding-left: 40px;
+        margin-top: 30px;
+    }
+
+    .footer-product h3 {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .footer-product p {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 5px;
+        height: 15px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .footer-store {
+        padding: 0;
+        padding-left: 40px;
+        margin-top: 30px;
+    }
+
+    .footer-store h3 {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .footer-store p {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 5px;
+        height: 15px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .footer-contact {
+        padding: 0;
+        padding-left: 40px;
+        margin-top: 30px;
+    }
+
+    .footer-contact h3 {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .footer-contact p {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 5px;
+        height: 15px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+
+}
