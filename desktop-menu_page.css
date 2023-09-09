@@ -1,5 +1,6 @@
 * {
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 
@@ -105,6 +106,7 @@ header {
     width: 100%;
     padding: 40px;
     margin-left: 100px;
+    justify-content: center;
     
 }
 
@@ -118,6 +120,7 @@ header {
     margin-top: 20.140px;
     margin-right: 122px;
     margin-bottom: 20.140px;
+    padding-left: 10px;
     
 }
 
@@ -156,7 +159,7 @@ header {
 .menu-image img {
     width: 186px;
     height: 139.632px;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .container-footer {
@@ -186,13 +189,16 @@ header {
     width: 40px;
     height: 32px;
     padding-right: 27px;
+    box-sizing: unset;
 }
 
 .logo-phone img{
     width: 32px;
     height: 32px;
     padding-right: 27px;
+    box-sizing: unset;
 }
+
 .footer-product {
     padding-bottom: 20px;
     font-size: 24px;
