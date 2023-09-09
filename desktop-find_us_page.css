@@ -1,11 +1,12 @@
 * {
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 
 
 html, body {
-    max-width:9100%;
+    max-width:100%;
     overflow-x: hidden;
     font-family: "Lato",Arial, Helvetica, sans-serif; 
    
@@ -70,13 +71,12 @@ header {
     margin-right: 50px;
     font-size: 30px;
     margin-top: 54px;
-    
     text-align: center;
-    
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
+
 
 .main {
     display:flex;
@@ -120,6 +120,9 @@ header {
     margin-right: 112.2px;
     margin-bottom: 20px;
     margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #D2D2D2;
+    background: #FFF;
 }
 
 .loc h2{
@@ -179,13 +182,16 @@ header {
     width: 40px;
     height: 32px;
     padding-right: 27px;
+    box-sizing: unset;
 }
 
 .logo-phone img{
     width: 32px;
     height: 32px;
     padding-right: 27px;
+    box-sizing: unset;
 }
+
 .footer-product {
     padding-bottom: 20px;
     font-size: 24px;
