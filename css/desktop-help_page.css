@@ -145,6 +145,11 @@ header {
     background: #FFF;
 }
 
+.inputText {
+    font-size: 25px;
+    padding-left: 20px;
+} 
+
 .contact-submit {
     text-align: center;
     width: 216px;
