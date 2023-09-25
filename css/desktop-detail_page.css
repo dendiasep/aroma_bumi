@@ -8,14 +8,14 @@
 html, body {
     max-width:100%;
     overflow-x: hidden;
-font-family: "Lato",Arial, Helvetica, sans-serif; 
+    font-family: "Lato",Arial, Helvetica, sans-serif; 
    
     
 }
 
 @font-face {
     font-family: Lato;
-    src: url(Lato-Regular.ttf);
+    src: url(../font/Lato-Regular.ttf);
 }    
 
 .paragraph {
@@ -133,6 +133,7 @@ header {
 .container-description {
     width: 100%;
     height: 305px;
+    display: block;
     
 }
 .container-description h2 {
@@ -201,7 +202,7 @@ a.btn-back img {
     display: flex;
     border-radius: 30px;
     background: #143642;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .footer-logo { 
@@ -241,16 +242,36 @@ a.btn-back img {
     line-height: normal;
     padding-left: 139px;
     padding-top: 80px;
-}
-
-.footer-product a {
-    color: #EC9A29;
+    
 }
 
 .footer-product a:hover {
     color: #e68805;
 }
 
+.accordion {
+    cursor: pointer;
+    color: #EC9A29;
+    border-bottom: 1px solid gray;
+    width: 140px;
+}
+
+/*add icon accordion*/
+.accordion:after {
+    content: '\25C4'; /* Unicode character for "plus" sign (+) */
+    font-size: 17px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+  
+.accordion.active:after {
+    content: "\25BD"; /* Unicode character for "minus" sign (-) */
+}
+
+.panel {
+    display: none;
+}
 
 .footer-product p {
     color: #F9FBFE;
@@ -270,7 +291,7 @@ a.btn-back img {
     font-weight: 700;
     line-height: normal;
     padding-top: 80px;
-    padding-left: 100px;
+    padding-left: 80px;
 }
 
 .footer-store a {
@@ -295,7 +316,7 @@ a.btn-back img {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-left: 100px;
+    padding-left: 80px;
     padding-top: 80px;
     
 }
