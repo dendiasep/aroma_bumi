@@ -8,14 +8,14 @@
 html, body {
     max-width:100%;
     overflow-x: hidden;
-font-family: "Lato",Arial, Helvetica, sans-serif; 
+    font-family: "Lato",Arial, Helvetica, sans-serif; 
    
     
 }
 
 @font-face {
     font-family: Lato;
-    src: url(Lato-Regular.ttf);
+    src: url(../font/Lato-Regular.ttf);
 }    
 
 .paragraph {
@@ -26,13 +26,8 @@ a {
     color: #F9FBFE
 }
 
-a:hover {
-    color: #888383;
-}
-
-a:active {
-    color: #F9FBFE;
-    transition: 0.5s;
+.active, .href:hover {
+    border-bottom: 3px solid #EC9A29;
 }
 
 li {
@@ -71,13 +66,42 @@ header {
     margin-right: 50px;
     font-size: 30px;
     margin-top: 54px;
-    
     text-align: center;
-    
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
+
+
+.main-menu {
+    display: flex;
+    padding: 30px 30px;
+    }
+
+.container-side {
+    width: 40%;
+    margin-top: 39.84px;
+    margin-bottom: 75px;
+    font-size: 18px;
+    border: 2px solid #858888;
+    padding-left: 40px;
+    padding-right: 20px;
+    line-height: 50px;
+    border-radius: 20px;
+}
+
+.container-side h2{
+    color: #0F8B8D;
+}
+
+.container-side ul{
+    border-left: 5px solid orange;
+}
+
+.sideBar a{
+    color: #143642;
+}
+
 
 
 .menu-title h2{
@@ -103,15 +127,14 @@ header {
 .menu-items{
     display:flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 110%;
     padding: 40px;
-    margin-left: 100px;
     justify-content: center;
     
 }
 
-.menu-image {
-    background-image: url(Coffee\ background.png);
+.coffeeBased, .nonCoffee, .teaBased {
+    background-image: url(../Image/Coffee\ background.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 216px;
@@ -124,18 +147,18 @@ header {
     
 }
 
-.menu-image a {
+.coffeeBased a, .nonCoffee a, .teaBased a {
     display: flex;
     height: 220px;
     flex-direction: column;
 }
 
-.menu-image a:hover {
+.coffeeBased a:hover, .nonCoffee a:hover, .teaBased a:hover {
     flex-direction: column-reverse;
     transition: 5s;
 }
 
-.menu-image h3 {
+.coffeeBased h3, .nonCoffee h3, .teaBased h3 {
     color: #F9FBFE;
     text-align: center;
     font-family: Lato;
@@ -145,7 +168,7 @@ header {
     line-height: normal;
 }
 
-.menu-image p {
+.coffeeBased p, .nonCoffee p, .teaBased p {
     color: #F9FBFE;
     text-align: center;
     font-family: Lato;
@@ -156,7 +179,7 @@ header {
     margin: 0;
 }
 
-.menu-image img {
+.coffeeBased img, .nonCoffee img, .teaBased img {
     width: 186px;
     height: 139.632px;
     padding-left: 15px;
@@ -207,16 +230,36 @@ header {
     line-height: normal;
     padding-left: 139px;
     padding-top: 80px;
-}
-
-.footer-product a {
-    color: #EC9A29;
+    
 }
 
 .footer-product a:hover {
     color: #e68805;
 }
 
+.accordion {
+    cursor: pointer;
+    color: #EC9A29;
+    border-bottom: 1px solid gray;
+    width: 140px;
+}
+
+/*add icon accordion*/
+.accordion:after {
+    content: '\25C4'; /* Unicode character for "plus" sign (+) */
+    font-size: 17px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+  
+.accordion.active:after {
+    content: "\25BD"; /* Unicode character for "minus" sign (-) */
+}
+
+.panel {
+    display: none;
+}
 
 .footer-product p {
     color: #F9FBFE;
@@ -236,7 +279,7 @@ header {
     font-weight: 700;
     line-height: normal;
     padding-top: 80px;
-    padding-left: 100px;
+    padding-left: 80px;
 }
 
 .footer-store a {
@@ -261,7 +304,7 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-left: 100px;
+    padding-left: 80px;
     padding-top: 80px;
     
 }
