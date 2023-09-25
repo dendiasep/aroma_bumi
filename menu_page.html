@@ -4,13 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Menu Page</title>
-        <link rel="stylesheet" href="desktop-menu_page.css">
-        <link rel="stylesheet" href="mobile-menu_page.css">
-        <link rel="stylesheet" href="Lato-Regular.ttf">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./Css/desktop-menu_page.css">
+        <link rel="stylesheet" href="./Css/mobile-menu_page.css">
+        <link rel="stylesheet" href="./Font/Lato-Regular.ttf">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="icon" href="favicon.png" type="image/png">  
+        <link rel="icon" href="./Image/favicon.png" type="image/png">  
     </head>
 
     <body>
@@ -18,104 +17,148 @@
             <div class="container-header">
                 <div class="header-left">
                     <a href="index.html">
-                        <img class="logo-white" src="Logo White.png">
+                        <img class="logo-white" src="./Image/Logo White.png">
                     </a>
                     
                 </div>
                 <div class="header-right">
-                    <ul>
+                    <ul class="navBar">
                         <li class="header-contact">
-                            <a href="help_page.html">Contact</a>
+                            <a class="href" href="help_page.html">Contact</a>
                         </li>
                         <li class="header-store">
-                            <a href="find_us_page.html">Store</a>
+                            <a class="href" href="find_us_page.html" class="navBarLink">Store</a>
+                        </li>
                         <li class="header-product">
-                            <a href="menu_page.html">Product</a>
+                            <a class="href active" href="menu_page.html">Product</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </header>
-        <div class="container-menu">
-            <div class="menu-title">
-                <h2>Our Coffee Based Products</h2>
-                <p>Locally sourced best ingredients = best coffee.</p>
-            </div>
-            <div class="menu-list">
-                <ul class="menu-items">
-                    <li class="menu-image">
-                        <a href="#"><h3>Aren Latte</h3>
-                            <p>Rp 18.000,-</p>
-                            <img src="aren latte.png">
-                        </a>
+
+        <div class="main-menu">
+            <div class="container-side" id="mySideBar">
+                <h2 class = "sideBar">Products</H2>
+                <ul>
+                    <li class="sideBar">
+                            <a href="menu_page.html?q=#americano">Coffee Based</a>
                     </li>
-                    <li class="menu-image">
-                        <a href="#">
-                            <h3>Cafe Latte</h3>
-                            <p>Rp 24.000,-</p>
-                            <img src="cafe latte.png"></a>
+                    <li class="sideBar">
+                            <a href="menu_page.html?q=#chocolate">Non Coffee</a>
                     </li>
-                    <li class="menu-image">
-                        <a href="#">
-                            <h3>Caramel Latte</h3>
-                            <p>Rp 30.000,-</p>
-                            <img src="caramel latte.png">
-                        </a>
-                    </li>
-                    <li class="menu-image">
-                        <a href="#"><h3>Americano</h3>
-                            <p>Rp 18.000,-</p>
-                            <img src="americano.png">
-                        </a>
-                    </li>
-                    <li class="menu-image">
-                        <a href="#">
-                            <h3>Cappucino</h3>
-                            <p>Rp 24.000,-</p>
-                            <img src="cappucino.png">
-                        </a>
-                    </li>
-                    <li class="menu-image">
-                        <a href="detail_page.html">
-                            <h3>Butterscotch</h3>
-                            <p>Rp 24.000,-</p>
-                            <img src="butterscotch2.png">
-                        </a>
+                    <li class="sideBar">
+                            <a href="menu_page.html?q=#milkTea">Tea Based</a>
                     </li>
                 </ul>
             </div>
-
-
+            <script src="./JS/script.js"></script>
+            
+            <div class="container-menu">
+                <div class="menu-title">
+                    <h2>Our Coffee Based Products</h2>
+                    <p>Locally sourced best ingredients = best coffee.</p>
+                </div>
+                <div class="menu-list">
+                    <ul class="menu-items">
+                        <li id="arenLatte" class="filterDiv coffeeBased">
+                            <a href="#"><h3>Aren Latte</h3>
+                                <p>Rp 18.000,-</p>
+                                <img src="./Image/aren latte.png">
+                            </a>
+                        </li>
+                        <li id="cafeLatte" class="filterDiv coffeeBased">
+                            <a href="#">
+                                <h3>Cafe Latte</h3>
+                                <p>Rp 24.000,-</p>
+                                <img src="./Image/cafe latte.png"></a>
+                        </li>
+                        <li id="caramelLatte" class="filterDiv coffeeBased">
+                            <a href="#">
+                                <h3>Caramel Latte</h3>
+                                <p>Rp 30.000,-</p>
+                                <img src="./Image/caramel latte.png">
+                            </a>
+                        </li>
+                        <li id="americano" class="filterDiv coffeeBased">
+                            <a href="#"><h3>Americano</h3>
+                                <p>Rp 18.000,-</p>
+                                <img src="./Image/americano.png">
+                            </a>
+                        </li>
+                        <li id="cappucino" class="filterDiv coffeeBased">
+                            <a href="#">
+                                <h3>Cappucino</h3>
+                                <p>Rp 24.000,-</p>
+                                <img src="./Image/cappucino.png">
+                            </a>
+                        </li>
+                        <li id="butterScotch" class="filterDiv coffeeBased">
+                            <a href="detail_page.html">
+                                <h3>Butterscotch</h3>
+                                <p>Rp 24.000,-</p>
+                                <img src="./Image/butterscotch2.png">
+                            </a>
+                        </li>
+                        <li id="chocolate" class="filterDiv nonCoffee">
+                            <a href="#"><h3>Chocolate</h3>
+                                <p>Rp 18.000,-</p>
+                                <img src="./Image/americano.png">
+                            </a>
+                        </li>
+                        <li id="milkTea" class="filterDiv teaBased">
+                            <a href="#">
+                                <h3>Milk Tea</h3>
+                                <p>Rp 24.000,-</p>
+                                <img src="./Image/cappucino.png">
+                            </a>
+                        </li>
+                        <li id="lemonTea" class="filterDiv teaBased">
+                            <a href="detail_page.html">
+                                <h3>Lemon Tea</h3>
+                                <p>Rp 24.000,-</p>
+                                <img src="./Image/butterscotch2.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+
         <footer>
             <div class="container-footer">
                 <div class="footer-logo">
                     <a href="index.html">
-                        <img class="logo white 1" src="Logo White.png">
+                        <img class="logo white 1" src="./Image/Logo White.png">
                     </a>
                     <ul class="logo-contact">
-                        <li class="logo-mail"><img src="MAIL ICON.svg"></li> 
-                        <li class="logo-phone"><img src="PHONE ICON.svg"></li>
+                        <li class="logo-mail"><img src="./SVG/MAIL ICON.svg"></li> 
+                        <li class="logo-phone"><img src="./SVG/PHONE ICON.svg"></li>
                     </ul>
                 </div>
                 <div class="footer-product">
-                    <h3><a href="menu_page.html">Product</a></h3>
+                    <h3 class = "accordion">Product</h3>
+                    <div class="panel">
                         <p>Coffe Based</p>
                         <p>Non-Coffe</p>
                         <p>Tea Based</p>
+                    </div>
 
                 </div>
                 <div class="footer-store">
-                    <h3><a href="find_us_page.html">Store</a></h3>
+                    <h3 class="accordion">Store</h3>
+                    <div class="panel">
                         <p>Location</p>
+                    </div>   
 
                 </div>
                 <div class="footer-contact">
-                    <h3><a href="help_page.html">Contact</a></h3>
+                    <h3 class="accordion">Contact</h3>
+                    <div class="panel">
                         <p>Costumer Service</p>
-
+                    </div>
                 </div>
-
+                <script src="./JS/accordion.js"></script>
             </div>
         </footer>
     </body>
