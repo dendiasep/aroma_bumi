@@ -3,14 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Detail Page</title>
-        <link rel="stylesheet" href="desktop-detail_page.css">
-        <link rel="stylesheet" href="mobile-detail_page.css">
-        <link rel="stylesheet" href="Lato-Regular.ttf">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <title>Menu Page</title>
+        <link rel="stylesheet" href="./css/desktop-menu_page.css">
+        <link rel="stylesheet" href="./css/mobile-menu_page.css">
+        <link rel="stylesheet" href="./font/Lato-Regular.ttf">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="icon" href="favicon.png" type="image/png"> 
+        <link rel="icon" href="./image/favicon.png" type="image/png">  
     </head>
 
     <body>
@@ -18,7 +17,7 @@
             <div class="container-header">
                 <div class="header-left">
                     <a href="index.html">
-                        <img class="logo-white" src="Logo White.png">
+                        <img class="logo-white" src="./image/Logo White.png">
                     </a>
                     
                 </div>
@@ -39,7 +38,7 @@
         <dev class="main">
             <dev class="container-product">
                 <dev class="product-image">
-                    <img src="butterscotch2.png">
+                    <img src="./image/butterscotch2.png">
                 </dev>
                 <dev class="product-name">
                     <h3>Butterscotch</h3>
@@ -51,7 +50,7 @@
                 <h2>Description</h2>
                 <p>Made with a perfect combination of freshly grinded arabica coffee beans, full cream milk, and exquisite butterscotch sauce. Perfect for those who crave little bit of sweet things in their life.</p>
                     <a href="menu_page.html" class="btn-back">
-                        <span><img src="Vector.svg"></span>Back to our products
+                        <span><img src="./svg/Vector.svg"></span>Back to our products
                     </a>
             </dev>
             
@@ -60,31 +59,36 @@
             <div class="container-footer">
                 <div class="footer-logo">
                     <a href="index.html">
-                        <img class="logo white 1" src="Logo White.png">
+                        <img class="logo white 1" src="./image/Logo White.png">
                     </a>
                     <ul class="logo-contact">
-                        <li class="logo-mail"><img src="MAIL ICON.svg"></li> 
-                        <li class="logo-phone"><img src="PHONE ICON.svg"></li>
+                        <li class="logo-mail"><img src="./svg/MAIL ICON.svg"></li> 
+                        <li class="logo-phone"><img src="./svg/PHONE ICON.svg"></li>
                     </ul>
                 </div>
                 <div class="footer-product">
-                    <h3><a href="menu_page.html">Product</a></h3>
+                    <h3 class = "accordion">Product</h3>
+                    <div class="panel">
                         <p>Coffe Based</p>
                         <p>Non-Coffe</p>
                         <p>Tea Based</p>
+                    </div>
 
                 </div>
                 <div class="footer-store">
-                    <h3><a href="find_us_page.html">Store</a></h3>
+                    <h3 class="accordion">Store</h3>
+                    <div class="panel">
                         <p>Location</p>
+                    </div>   
 
                 </div>
                 <div class="footer-contact">
-                    <h3><a href="help_page.html">Contact</a></h3>
+                    <h3 class="accordion">Contact</h3>
+                    <div class="panel">
                         <p>Costumer Service</p>
-
+                    </div>
                 </div>
-
+                <script src="./js/accordion.js"></script>
             </div>
         </footer>
 
