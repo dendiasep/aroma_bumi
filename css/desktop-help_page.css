@@ -14,7 +14,7 @@ font-family: "Lato",Arial, Helvetica, sans-serif;
 
 @font-face {
     font-family: Lato;
-    src: url(Lato-Regular.ttf);
+    src: url(../Font/Lato-Regular.ttf);
 }    
 
 .paragraph {
