@@ -294,10 +294,6 @@ a.btn-back img {
     padding-left: 80px;
 }
 
-.footer-store a {
-    color: #EC9A29;
-}
-
 .footer-store a:hover {
     color: #e68805;
 }
@@ -318,11 +314,6 @@ a.btn-back img {
     line-height: normal;
     padding-left: 80px;
     padding-top: 80px;
-    
-}
-
-.footer-contact a {
-    color: #EC9A29;
 }
 
 .footer-contact a:hover {
