@@ -282,10 +282,6 @@ header {
     padding-left: 80px;
 }
 
-.footer-store a {
-    color: #EC9A29;
-}
-
 .footer-store a:hover {
     color: #e68805;
 }
@@ -306,11 +302,6 @@ header {
     line-height: normal;
     padding-left: 80px;
     padding-top: 80px;
-    
-}
-
-.footer-contact a {
-    color: #EC9A29;
 }
 
 .footer-contact a:hover {
