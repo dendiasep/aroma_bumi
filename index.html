@@ -4,13 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home Page</title>
-        <link rel="stylesheet" href="desktop-home_page.css">
-        <link rel="stylesheet" href="mobile-home_page.css">
-        <link rel="stylesheet" href="Lato-Regular.ttf">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/desktop-home_page.css">
+        <link rel="stylesheet" href="./css/mobile-home_page.css">
+        <link rel="stylesheet" href="./font/Lato-Regular.ttf">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="icon" href="favicon.png" type="image/png">  
+        <link rel="icon" href="./image/favicon.png" type="image/png">  
     </head>
 
     <body>
@@ -18,7 +17,7 @@
             <div class="container-header">
                 <div class="header-left">
                     <a href="index.html">
-                        <img class="logo-white" src="Logo White.png">
+                        <img class="logo-white" src="./image/Logo White.png">
                     </a>
                 </div>
                 <div class="header-right">
@@ -44,28 +43,28 @@
             </div> 
         </div>
         <div class="lesson-wrapper">
-            <div class="about">
+            <div class="about reveal fade-bottom">
                 <div class="about-container">
-                    <img src="Who are we.jpg">
+                    <img src="./image/Whoarewe.jpg">
                 </div>
                 <div class="about-text">
                     <h2>Who are we?</h2>
                     <p>We are Jakarta-based coffee and tea house focused on professionally brewing local sourced, high quality, coffee beans and tea leaves.</p>
                 </div>
             </div>
-            <div class="product">
+            <div class="product reveal fade-left">
                 <div class="product-text">
                     <h2>Product Showcase</h2>
                     <p>Our products contain the highest quality ingredients processed with care.</p>
                     <a href="menu_page.html" class="btn product">See our coffee and tea</a>
                 </div>
                 <div class="product-container">
-                    <img src="Our products.jpg">
+                    <img src="./image/Our products.jpg">
                 </div>
             </div>
-            <div class="store">
+            <div class="store reveal fade-right">
                 <div class="store-container">
-                    <img src="Hang out with us.jpg">
+                    <img src="./image/Hang out with us.jpg">
                 </div>
                 <div class="store-text">
                     <h2>Hang out with us!</h2>
@@ -73,18 +72,19 @@
                     <a href ="find_us_page.html" class="btn store">Find out cafes</a>
                 </div>
             </div>
+            <script src="./js/script.js"></script>
         </div>
         <div class="contents-wrapper">
             <div class="container-contents">
                 <h2>Find us out at Instagram <span>@aroma_bumi!</span></h2>
                 <div class="contents-item">
                     <ul class="contents-list">
-                        <li><img src="Feed 1.png"></li>
-                        <li><img src="Feed 2.png"></li>
-                        <li><img src="Feed 3.png"></li>
-                        <li><img src="Feed 4.png"></li>
-                        <li><img src="Feed 5.png"></li>
-                        <li><img src="Feed 6.png"></li>
+                        <li><img src="./image/Feed 1.png"></li>
+                        <li><img src="./image/Feed 2.png"></li>
+                        <li><img src="./image/Feed 3.png"></li>
+                        <li><img src="./image/Feed 4.png"></li>
+                        <li><img src="./image/Feed 5.png"></li>
+                        <li><img src="./image/Feed 6.png"></li>
                     </ul>
                 </div>
             </div>
@@ -100,31 +100,36 @@
             <div class="container-footer">
                 <div class="footer-logo">
                     <a href="index.html">
-                        <img class="logo white 1" src="Logo White.png">
+                        <img class="logo white 1" src="./image/Logo White.png">
                     </a>
                     <ul class="logo-contact">
-                        <li class="logo-mail"><img src="MAIL ICON.svg"></li> 
-                        <li class="logo-phone"><img src="PHONE ICON.svg"></li>
+                        <li class="logo-mail"><img src="./svg/MAIL ICON.svg"></li> 
+                        <li class="logo-phone"><img src="./svg/PHONE ICON.svg"></li>
                     </ul>
                 </div>
                 <div class="footer-product">
-                    <h3><a href="menu_page.html">Product</a></h3>
+                    <h3 class = "accordion">Product</h3>
+                    <div class="panel">
                         <p>Coffe Based</p>
                         <p>Non-Coffe</p>
                         <p>Tea Based</p>
+                    </div>
 
                 </div>
                 <div class="footer-store">
-                    <h3><a href="find_us_page.html">Store</a></h3>
+                    <h3 class="accordion">Store</h3>
+                    <div class="panel">
                         <p>Location</p>
+                    </div>   
 
                 </div>
                 <div class="footer-contact">
-                    <h3><a href="help_page.html">Contact</a></h3>
+                    <h3 class="accordion">Contact</h3>
+                    <div class="panel">
                         <p>Costumer Service</p>
-
+                    </div>
                 </div>
-
+                <script src="./js/accordion.js"></script>
             </div>
         </footer>
     </body>
