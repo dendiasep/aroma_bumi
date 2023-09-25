@@ -31,15 +31,15 @@
     }
 
     .top-title h1 {
-        padding-top: 180px;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: normal;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-top: 180px;
     }
 
     .top-title p{
-        font-size: 16px;         
+    font-size: 16px;         
     }   
 
     .about {
@@ -55,9 +55,9 @@
     }
 
     .about-container img {
-        width: 155px;
-        height: 212.836px;
-        margin-left: 100px;
+    width: 155px;
+    height: 212.836px;
+    margin-left: 100px;
     }
 
     .about-text {
@@ -394,4 +394,5 @@
         margin-top: 10px;
         margin-bottom: 0;
     }
+
 }
