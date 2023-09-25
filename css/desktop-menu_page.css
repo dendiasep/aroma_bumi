@@ -134,7 +134,7 @@ header {
 }
 
 .coffeeBased, .nonCoffee, .teaBased {
-    background-image: url(../Image/Coffee\ background.png);
+    background-image: url(../image/Coffee\ background.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 216px;
