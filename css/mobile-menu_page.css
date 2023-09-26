@@ -31,6 +31,20 @@
         line-height: normal;
     }
 
+    .main-menu {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .main-menu {
+        flex-wrap: wrap;
+    }
+    #mySideBar {
+        width: 100%;
+        margin: 0;
+        margin: 0 30px;
+    }
+
     .menu-title h2{
         font-size: 20px;
         margin-top: 40px;
@@ -45,11 +59,23 @@
     .menu-items{
         display:flex;
         flex-wrap: wrap;
-        width: 100%;
-        padding: 0 20px 60px 20px;
+        width: 440px;
+        padding: 0;
         margin: 0;
-        justify-content: center;
+        justify-content: flex-start;
+        margin-left: 10px;
         
+    }
+
+    .filterDiv {
+        width: 38%;
+        margin: 10px;
+        height: 170px
+    }
+
+    .filterDiv img{
+        width: 135px;
+        height: 80px
     }
     
     .menu-image {
@@ -86,11 +112,6 @@
     .menu-image a:hover {
         height: auto;
     }
-
-
-
-
-
 
     .container-footer {
         flex-direction: column;
