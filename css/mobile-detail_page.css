@@ -235,5 +235,10 @@
         margin-bottom: 0;
     }
 
+     h3.accordion {
+        width: 90%;
+        padding-bottom: 10px;
+    }
+
 
 }
