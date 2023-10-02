@@ -75,7 +75,8 @@
 
     .filterDiv img{
         width: 135px;
-        height: 80px
+        height: 80px;
+        padding: 0;
     }
     
     .menu-image {
