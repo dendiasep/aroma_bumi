@@ -58,6 +58,10 @@
         font-weight: 700;
     }
 
+    .inputText {
+        font-size: 15px;
+    }
+
     .form input {
         width: 231px;
         height: 23px;
