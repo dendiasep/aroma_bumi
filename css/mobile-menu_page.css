@@ -114,6 +114,15 @@
         height: auto;
     }
 
+    .coffeeBased h3, .nonCoffee h3, .teaBased h3 {
+        font-size: 18px;
+        
+    }
+    
+    .coffeeBased p, .nonCoffee p, .teaBased p {
+        font-size: 15px;
+    }
+
     .coffeeBased a:hover, .nonCoffee a:hover, .teaBased a:hover {
         flex-direction: column-reverse;
         transition: 5s;
